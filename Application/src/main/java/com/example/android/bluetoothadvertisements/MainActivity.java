@@ -49,7 +49,7 @@ public class MainActivity extends FragmentActivity {
 
                 // Is Bluetooth turned on?
                 if (mBluetoothAdapter.isEnabled()) {
-
+//                    setupFragments();
                     // Are Bluetooth Advertisements supported on this device?
                     if (mBluetoothAdapter.isMultipleAdvertisementSupported()) {
 
